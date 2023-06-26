@@ -1,0 +1,2 @@
+## Credits
+The Sequelize documentation was helpful in learning how to include multiple models in a route. The link for the documentation used is here: https://sequelize.org/docs/v6/advanced-association-concepts/eager-loading/#multiple-eager-loading.
