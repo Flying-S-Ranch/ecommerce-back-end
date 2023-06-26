@@ -3,25 +3,30 @@ const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
 
-router.get('/', (req, res) => {
+// GET /api/tags
+router.get('/', async (req, res) => {
   // find all tags
   // be sure to include its associated Product data
 });
 
-router.get('/:id', (req, res) => {
+// GET /api/tags/:id
+router.get('/:id', async (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
 });
 
-router.post('/', (req, res) => {
+// POST /api/tags
+router.post('/', async (req, res) => {
   // create a new tag
 });
 
-router.put('/:id', (req, res) => {
+// PUT /api/tags/:id
+router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
 });
 
-router.delete('/:id', (req, res) => {
+// DEL /api/tags/:id
+router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
 });
 
